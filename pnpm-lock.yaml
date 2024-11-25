@@ -92,6 +92,9 @@ importers:
       dlxui:
         specifier: ^
         version: 1.0.1
+      dxlui:
+        specifier: ^1.0.8
+        version: 1.0.8
     devDependencies:
       vitepress:
         specifier: ^1.5.0
@@ -1188,6 +1191,9 @@ packages:
   dot-prop@9.0.0:
     resolution: {integrity: sha512-1gxPBJpI/pcjQhKgIU91II6Wkay+dLcN3M6rf2uwP8hRur3HtQXjVrdAK3sjC0piaEuxzMwjXChcETiJl47lAQ==}
     engines: {node: '>=18'}
+
+  dxlui@1.0.8:
+    resolution: {integrity: sha512-IhtB1lHi9l+DysDubASZu544l7KOx1am1kwgsNTM1OOTg0ukHv1aKSqWeOcXJouFNCc5EZVB1t/l+W++ofi6lA==}
 
   each-props@3.0.0:
     resolution: {integrity: sha512-IYf1hpuWrdzse/s/YJOrFmU15lyhSzxelNVAHTEG3DtP4QsLTWZUzcUL3HMXmKQxXpa4EIrBPpwRgj0aehdvAw==}
@@ -3883,6 +3889,8 @@ snapshots:
   dot-prop@9.0.0:
     dependencies:
       type-fest: 4.28.0
+
+  dxlui@1.0.8: {}
 
   each-props@3.0.0:
     dependencies:

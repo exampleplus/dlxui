@@ -1,16 +1,4 @@
----
-# Markdown front matter
----
-
-<script setup>
-import { defineAsyncComponent } from 'vue'
-const DlxButton = defineAsyncComponent(() => import('../../../../packages/components/src/button'))
-</script>
-
-<template>
-  <DlxButton type='primary'>默认按钮</DlxButton>
-</template>
-
+<dlx-button type='primary'>按钮</dlx-button>
 ::: details 显示代码
 
 ```html
