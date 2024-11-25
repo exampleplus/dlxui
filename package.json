@@ -15,8 +15,7 @@
   ],
   "description": "dlxui",
   "scripts": {
-    "build:dlxui": "gulp -f packages/components/script/build/index.ts",
-    "publish:dlxui": "gulp -f packages/components/script/publish/index.ts"
+    "build:dlxui": "gulp -f packages/components/script/build/index.ts"
   },
   "author": "",
   "license": "ISC",
@@ -30,6 +29,7 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-less": "^5.0.0",
     "less": "^4.2.0",
+    "release-it": "^17.10.0",
     "sucrase": "^3.35.0",
     "typescript": "^5.6.3",
     "vite": "^5.4.11",
