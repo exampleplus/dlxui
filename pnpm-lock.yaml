@@ -90,8 +90,8 @@ importers:
         specifier: workspace:^
         version: link:../packages/components
       dlxui:
-        specifier: workspace:^
-        version: link:..
+        specifier: ^
+        version: 1.0.1
     devDependencies:
       vitepress:
         specifier: ^1.5.0
@@ -1181,6 +1181,9 @@ packages:
 
   devlop@1.1.0:
     resolution: {integrity: sha512-RWmIqhcFf1lRYBvNmr7qTNuyCt/7/ns2jbpp1+PalgE/rDQcBT0fioSMUpJ93irlUhC5hrg4cYqe6U+0ImW0rA==}
+
+  dlxui@1.0.1:
+    resolution: {integrity: sha512-5xbp7r9eLXsU0b3hxbl/f6Ot1xLsPrJGQ+HWEhBlnL+mnMJiybBrcovSkNl9qspjA6eaxCHdDEOL6GEnUDNM5g==}
 
   dot-prop@9.0.0:
     resolution: {integrity: sha512-1gxPBJpI/pcjQhKgIU91II6Wkay+dLcN3M6rf2uwP8hRur3HtQXjVrdAK3sjC0piaEuxzMwjXChcETiJl47lAQ==}
@@ -3874,6 +3877,8 @@ snapshots:
   devlop@1.1.0:
     dependencies:
       dequal: 2.0.3
+
+  dlxui@1.0.1: {}
 
   dot-prop@9.0.0:
     dependencies:
