@@ -15,7 +15,8 @@
   ],
   "description": "dlxui",
   "scripts": {
-    "build:dlxui": "gulp -f packages/components/script/build/index.ts"
+    "build:dlxui": "gulp -f packages/components/script/build/index.ts",
+    "publish:dlxui": "gulp -f packages/components/script/publish/index.ts"
   },
   "author": "",
   "license": "ISC",
