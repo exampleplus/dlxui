@@ -7,9 +7,10 @@ export default defineConfig({
     outDir: 'es',
     //压缩
     //minify: false,
+    emptyOutDir: false,
     rollupOptions: {
       //忽略打包vue文件
-      external: ['vue', /.less/],
+      external: ['vue', /\.less/],
       input: ['index.ts'],
       output: [
         {

@@ -7,6 +7,6 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { Button } from '@dlxui/components'
+import { Button } from 'dlxui'
 import { Icon } from '@dlxui/components'
 </script>

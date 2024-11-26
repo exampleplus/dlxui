@@ -90,11 +90,8 @@ importers:
         specifier: workspace:^
         version: link:../packages/components
       dlxui:
-        specifier: ^
-        version: 1.0.1
-      dxlui:
-        specifier: ^1.0.8
-        version: 1.0.8
+        specifier: ^1.0.9
+        version: 1.0.9
     devDependencies:
       vitepress:
         specifier: ^1.5.0
@@ -1185,15 +1182,12 @@ packages:
   devlop@1.1.0:
     resolution: {integrity: sha512-RWmIqhcFf1lRYBvNmr7qTNuyCt/7/ns2jbpp1+PalgE/rDQcBT0fioSMUpJ93irlUhC5hrg4cYqe6U+0ImW0rA==}
 
-  dlxui@1.0.1:
-    resolution: {integrity: sha512-5xbp7r9eLXsU0b3hxbl/f6Ot1xLsPrJGQ+HWEhBlnL+mnMJiybBrcovSkNl9qspjA6eaxCHdDEOL6GEnUDNM5g==}
+  dlxui@1.0.9:
+    resolution: {integrity: sha512-wEX38ZlSEP/zlbb8DcAKMDNCk4mi0Xc9ZyPBKKfhtMVRlXN9XgseRlbchKuwXLRpTK/CTEVRmJJpTJmHmyzmvQ==}
 
   dot-prop@9.0.0:
     resolution: {integrity: sha512-1gxPBJpI/pcjQhKgIU91II6Wkay+dLcN3M6rf2uwP8hRur3HtQXjVrdAK3sjC0piaEuxzMwjXChcETiJl47lAQ==}
     engines: {node: '>=18'}
-
-  dxlui@1.0.8:
-    resolution: {integrity: sha512-IhtB1lHi9l+DysDubASZu544l7KOx1am1kwgsNTM1OOTg0ukHv1aKSqWeOcXJouFNCc5EZVB1t/l+W++ofi6lA==}
 
   each-props@3.0.0:
     resolution: {integrity: sha512-IYf1hpuWrdzse/s/YJOrFmU15lyhSzxelNVAHTEG3DtP4QsLTWZUzcUL3HMXmKQxXpa4EIrBPpwRgj0aehdvAw==}
@@ -3884,13 +3878,11 @@ snapshots:
     dependencies:
       dequal: 2.0.3
 
-  dlxui@1.0.1: {}
+  dlxui@1.0.9: {}
 
   dot-prop@9.0.0:
     dependencies:
       type-fest: 4.28.0
-
-  dxlui@1.0.8: {}
 
   each-props@3.0.0:
     dependencies:

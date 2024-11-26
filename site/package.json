@@ -18,7 +18,6 @@
   },
   "dependencies": {
     "@dlxui/components": "workspace:^",
-    "dlxui": "^",
-    "dxlui": "^1.0.8"
+    "dlxui": "^1.0.9"
   }
 }
