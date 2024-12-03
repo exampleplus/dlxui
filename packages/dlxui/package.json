@@ -1,0 +1,28 @@
+{
+  "name": "dlxui",
+  "version": "1.0.10",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "dlxui",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "小满",
+  "license": "MIT",
+  "description": "vue3组件库",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exampleplus/dlxui"
+  }
+}
