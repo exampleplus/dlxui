@@ -3,16 +3,17 @@
     <slot></slot>
   </button>
 </template>
-<script lang="ts">
+<!-- <script lang="ts">
 import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'dlx-button',
 })
-</script>
+</script> -->
 
 <script setup lang="ts">
 import './style/index.less'
 import { computed } from 'vue'
+defineOptions({ name: 'dlx-button' })
 
 type ButtonProps = {
   type?: String

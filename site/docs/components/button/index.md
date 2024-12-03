@@ -1,8 +1,5 @@
 <dlx-button type='primary'>按钮</dlx-button>
-::: details 显示代码
+<dlx-button type='danger'>按钮</dlx-button>
+<dlx-button >按钮</dlx-button>
 
-```html
-<dlx-button type="primary">默认按钮</dlx-button>
-```
-
-:::
+<dlx-icon></dlx-icon>

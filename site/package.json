@@ -17,7 +17,6 @@
     "vue": "^3.5.13"
   },
   "dependencies": {
-    "@dlxui/components": "workspace:^",
-    "dlxui": "^1.0.9"
+    "dlxui": "workspace:^"
   }
 }
